@@ -1,9 +1,6 @@
 # Base Image
 FROM python:3.8-slim
-<<<<<<< HEAD
 LABEL maintainer="Masha"
-=======
->>>>>>> ba7e28b569ac57c51319b91ce21464eeee2653e3
 
 # Arguments that can be set with docker build
 ARG AIRFLOW_VERSION=2.0.2
